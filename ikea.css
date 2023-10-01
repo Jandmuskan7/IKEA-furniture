@@ -1,0 +1,161 @@
+*{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    padding: 10px;
+    margin:-23px;
+    border: 1px solid black;
+    background-color: black;
+}
+.links{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+  
+}
+.links ul{
+    display: flex;
+    list-style: none;
+}
+/* .links li{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+} */
+.links a{
+    /* padding: 5px; */
+    text-decoration: none;
+    color: black;
+}
+.images {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    position: relative;
+ align-items: center;
+}
+.images::-webkit-scrollbar{
+    -webkit-appearance:none ;
+}
+.img{
+    margin: 0;
+    width: 100%;
+}
+.bedroom img{
+  height: 10vh;
+  margin: 5px;
+}
+.bedroom figcaption{
+    text-align:left;
+}
+.img2{
+ position: relative;
+ height: 350px;
+   width: 350px;
+   /* margin: 10% auto 0; */
+   color: #fff;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.image2{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    position: relative;
+}
+/* .imag2 img{
+    height: 50vh;
+    width: 100%;
+} */
+.image2::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.img2 img{
+    position: absolute;
+ height: 350px;
+   width: 350px;
+  /* left: 0; */
+  transition: opacity 0.3s ease-in-out;
+  -webkit-transition:opacity 0.3s ease-in-out ;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition:opacity 0.3s ease-in-out;
+}
+.img2 img.front:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+.images2{
+    display: flex;
+width: 1170px;
+    align-items: center;
+  /* margin: 40px; */
+    position: relative;
+}
+figure{
+    width: 32%;
+    /* float:left ; */
+    margin: 10px;
+}
+figcaption{
+    text-align: center;
+}
+.images2 p{
+    text-align: left;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social ul{
+    display: flex;
+}
+.social li{
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer a:hover{
+   text-decoration: underline;
+   transition: 2s;
+
+
+}
+ a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.opt li{
+    list-style: none;
+    padding: 5px;
+  
+}
+.opt{
+    text-align: center;
+}
+footer{
+    background-color: rgb(218, 215, 215);
+    margin: -20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+input{
+    border-radius: 50px;
+}
